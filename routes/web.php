@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/hello', function () {
+    return 'selamat pagi dunia, namaku arsy';
+});
+Route::get('/hallo',function () {
+    echo '<h1> selamat sejahtera dunia </h1>';
+    echo '<p> nama saya mohammad arsy jahfal, mahasiswa di Poilteknik negeri Jember.';
+});
